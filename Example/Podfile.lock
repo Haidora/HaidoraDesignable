@@ -1,0 +1,20 @@
+PODS:
+  - HaidoraDesignable (0.1.0):
+    - NUI
+  - NUI (0.5.5):
+    - NUIParse
+  - NUIParse (1.3)
+
+DEPENDENCIES:
+  - HaidoraDesignable (from `../`)
+
+EXTERNAL SOURCES:
+  HaidoraDesignable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HaidoraDesignable: 9ca3408c5c62289d235df83a9aef8d9151f21819
+  NUI: 53de7278003235deb2a375fe6f04c7a3aa3e49eb
+  NUIParse: 2e3885ba7807477266396292626bd387d34c2338
+
+COCOAPODS: 0.39.0
