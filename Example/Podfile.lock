@@ -1,5 +1,12 @@
 PODS:
   - HaidoraDesignable (0.1.0):
+    - HaidoraDesignable/Core (= 0.1.0)
+    - HaidoraDesignable/PlaceHolder (= 0.1.0)
+    - NUI
+  - HaidoraDesignable/Core (0.1.0):
+    - NUI
+  - HaidoraDesignable/PlaceHolder (0.1.0):
+    - HaidoraDesignable/Core
     - NUI
   - NUI (0.5.5):
     - NUIParse
@@ -13,7 +20,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HaidoraDesignable: 9ca3408c5c62289d235df83a9aef8d9151f21819
+  HaidoraDesignable: e34a2f1a1e92edd6207bcb91c961769aa825bc7c
   NUI: 53de7278003235deb2a375fe6f04c7a3aa3e49eb
   NUIParse: 2e3885ba7807477266396292626bd387d34c2338
 

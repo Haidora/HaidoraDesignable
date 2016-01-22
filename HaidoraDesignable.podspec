@@ -13,6 +13,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
   s.dependency 'NUI'
+  s.subspec 'Core' do |hdCore|
+      hdCore.source_files = 'Pod/Classes/Core/**/*'
+  end
+  s.subspec 'PlaceHolder' do |hdPlaceHolder|
+      hdPlaceHolder.source_files = 'Pod/Classes/PlaceHolder/**/*'
+      hdPlaceHolder.dependency 'HaidoraDesignable/Core'
+  end
 end
