@@ -20,11 +20,13 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6DD3C867614AB43E845FFC1D /* Pods_HaidoraDesignable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB81D575DD6FA82B7DF108F /* Pods_HaidoraDesignable_Example.framework */; };
+		7C62EF3A5867A33EDD440D03 /* Pods_HaidoraDesignable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1383F7610D232B3717F8EE8 /* Pods_HaidoraDesignable_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A831191135DF0C45C0250EC9 /* Pods_HaidoraDesignable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE40D3AFDACF722A6CE3228 /* Pods_HaidoraDesignable_Tests.framework */; };
 		AB31C2C61C50CA4400D48506 /* HaidoraDesignable.nss in Resources */ = {isa = PBXBuildFile; fileRef = AB31C2C51C50CA4400D48506 /* HaidoraDesignable.nss */; };
 		AB31C2C81C50CC9500D48506 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB31C2C71C50CC9500D48506 /* Launch Screen.storyboard */; };
-		F680EF1E941469086A5A1065 /* Pods_HaidoraDesignable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA3AB65B17AF138F4E676CB /* Pods_HaidoraDesignable_Tests.framework */; };
+		ABD12B201C51BEA9001D11B0 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD12B1F1C51BEA9001D11B0 /* TestView.m */; };
+		ABD12B221C51BF14001D11B0 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD12B211C51BF14001D11B0 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 /* Begin PBXFileReference section */
 		1833B40B59BE19D19FBC7EE6 /* Pods-HaidoraDesignable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraDesignable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraDesignable_Example/Pods-HaidoraDesignable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2277EF5EFB0A899B37EF4E8B /* Pods-HaidoraDesignable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraDesignable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraDesignable_Tests/Pods-HaidoraDesignable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4FA3AB65B17AF138F4E676CB /* Pods_HaidoraDesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraDesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A75EFC777E31C9F9641DCC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HaidoraDesignable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaidoraDesignable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +66,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AB31C2C51C50CA4400D48506 /* HaidoraDesignable.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HaidoraDesignable.nss; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		AB31C2C71C50CC9500D48506 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		ABD12B1E1C51BEA9001D11B0 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		ABD12B1F1C51BEA9001D11B0 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		ABD12B211C51BF14001D11B0 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		B1383F7610D232B3717F8EE8 /* Pods_HaidoraDesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraDesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD46A4F2EB7049799D79B463 /* Pods-HaidoraDesignable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraDesignable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraDesignable_Example/Pods-HaidoraDesignable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAB81D575DD6FA82B7DF108F /* Pods_HaidoraDesignable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraDesignable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE40D3AFDACF722A6CE3228 /* Pods_HaidoraDesignable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraDesignable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB293626CA2FB195A829645 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DABA3A7FC35999988A79BA76 /* HaidoraDesignable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HaidoraDesignable.podspec; path = ../HaidoraDesignable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -79,7 +84,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6DD3C867614AB43E845FFC1D /* Pods_HaidoraDesignable_Example.framework in Frameworks */,
+				7C62EF3A5867A33EDD440D03 /* Pods_HaidoraDesignable_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +95,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F680EF1E941469086A5A1065 /* Pods_HaidoraDesignable_Tests.framework in Frameworks */,
+				A831191135DF0C45C0250EC9 /* Pods_HaidoraDesignable_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +130,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CAB81D575DD6FA82B7DF108F /* Pods_HaidoraDesignable_Example.framework */,
-				4FA3AB65B17AF138F4E676CB /* Pods_HaidoraDesignable_Tests.framework */,
+				B1383F7610D232B3717F8EE8 /* Pods_HaidoraDesignable_Example.framework */,
+				BDE40D3AFDACF722A6CE3228 /* Pods_HaidoraDesignable_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +148,9 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				AB31C2C51C50CA4400D48506 /* HaidoraDesignable.nss */,
 				AB31C2C71C50CC9500D48506 /* Launch Screen.storyboard */,
+				ABD12B1E1C51BEA9001D11B0 /* TestView.h */,
+				ABD12B1F1C51BEA9001D11B0 /* TestView.m */,
+				ABD12B211C51BF14001D11B0 /* View.xib */,
 			);
 			name = "Example for HaidoraDesignable";
 			path = HaidoraDesignable;
@@ -286,6 +294,7 @@
 				AB31C2C61C50CA4400D48506 /* HaidoraDesignable.nss in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				AB31C2C81C50CC9500D48506 /* Launch Screen.storyboard in Resources */,
+				ABD12B221C51BF14001D11B0 /* View.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD12B201C51BEA9001D11B0 /* TestView.m in Sources */,
 				6003F59E195388D20070C39A /* HDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
